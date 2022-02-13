@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-style: inherit;
+  background-color: #E9E5D6;
+}
+
+/* Style the header */
+header {
+  background-color: #ACB992;
+  padding: 0.1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width: 100%;
+  background: #ccc;
+  padding: 0;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #362706;
+  padding: 1px;
+  text-align: right;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E9E5D6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ACB992;
+}
+
+.button{
+  border: none;
+  color: #FFFF;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.readMorebutton{
+  background-color: #ACB992;
+  border-radius: 4px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>1ο γυμνάσιο αργυρούπολης</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Sxoleio.html">Αρχικη</a></li>
+      <li><a href="Programma.html">Πρόγραμμα</a></li>
+      <li><a href="Istoria.html">Ιστορία</a></li>
+      <li><a href="Epikoinonia.html">Επικοινωνία</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Ίδρυση και περιγραφή του Σχολείου μας</h1>
+    <img src="SxolioImg.jpg" alt="Sxoleio">
+    <p>Την χρονιά που η Αργυρούπολη από κοινότητα γίνεται δήμος, ιδρύεται και λειτουργεί κατά το σχολικό έτος 1972-1973 το 1ο Μικτό Γυμνάσιο Αργυρούπολης. Η αύξηση του πληθυσμού και κατά συνέπεια των μαθητών επιβάλλει το 1985 την προσθήκη ενός ακόμη ορόφου με τέσσερις αίθουσες στη ΒΑ πτέρυγα του κτιρίου για την κάλυψη των αναγκών του.
+
+        Έτσι οι νέοι χώροι επέτρεψαν διαδοχικά η λειτουργία εργαστηρίων (Φυσικών Επιστημών, Πληροφορικής, Τεχνολογίας) και αιθουσών (Βιβλιοθήκης, Προβολών και Ξένων Γλωσσών) που ανάπτυξαν τις δυνατότητες εφαρμογής εξωδιδακτικών πολιτιστικών προγραμμάτων.
+
+        
+        Το σχολείο σήμερα διαθέτει 12 αίθουσες διδασκαλίας, 1 εργαστήριο Φυσικών Επιστημών, 1 εργαστήριο Πληροφορικής, 1 εργαστήριο Τεχνολογίας, 1 εργαστήριο Ξένων Γλωσσών, σύγχρονη και καλά οργανωμένη Βιβλιοθήκη που λειτουργεί και ως δανειστική, 1 αίθουσα προβολών, 1 αίθουσα πολλαπλών χρήσεων. Επίσης 6 από τις αίθουσές του είναι εξοπλισμένες με συστήματα διαδραστικών πινάκων.</p>
+  </article>
+  
+</section>
+
+<footer>
+  <p>Copyright© 2022 .</p>
+</footer>
+
+</body>
+</html>

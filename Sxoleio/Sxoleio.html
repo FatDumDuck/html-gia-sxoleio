@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>1ο γυμνάσιο αργυρούπολης</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-style: inherit;
+  background-color: #E9E5D6;
+}
+
+/* Style the header */
+header {
+  background-color: #ACB992;
+  padding: 0.1px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: center;
+  width: 100%;
+  background: #ccc;
+  padding: 0;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #362706;
+  padding: 1px;
+  text-align: right;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E9E5D6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ACB992;
+}
+
+.button{
+  border: none;
+  color: #FFFF;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.readMorebutton{
+  background-color: #ACB992;
+  border-radius: 4px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>1ο γυμνάσιο αργυρούπολης</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Sxoleio.html">Αρχικη</a></li>
+      <li><a href="Programma.html">Πρόγραμμα</a></li>
+      <li><a href="Istoria.html">Ιστορία</a></li>
+      <li><a href="Epikoinonia.html">Επικοινωνία</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>ΜΕΤΡΑ ΠΡΟΣΤΑΣΙΑΣ ΓΙΑ ΤΟΝ COVID</h1>
+    <p>Όπως ήδη ακούσατε από τον Υπουργό Υγείας, τα σχολεία θα επαναλειτουργήσουν κανονικά μετά τις διακοπές των Χριστουγέννων, τη Δευτέρα 10 Ιανουαρίου.</p>
+
+    <a href="1stSubject.html">
+      <button class="button readMorebutton">Περισσότερα..</button>
+   </a>
+  </article>
+
+  <article>
+    <h1>ΕΝΙΣΧΥΤΙΚΗ ΔΙΔΑΣΚΑΛΙΑ 2021-2022</h1>
+    <p>Σας γνωστοποιούμε ότι στο Φ.Ε.Κ. 4710 Β΄/12-10-2021 δημοσιεύτηκε η με αρ. πρωτ.
+      126316/Δ2/6-10-2021 Υ.Α. με θέμα: «Οργάνωση και λειτουργία σχολικών κέντρων αντισταθμιστικής
+      εκπαίδευσης ως προς την Ενισχυτική Διδασκαλία για το σχολικό έτος 2021-2022».</p>
+
+      <a href="2ndSubject.html">
+        <button class="button readMorebutton">Περισσότερα..</button>
+     </a>
+
+  </article>
+
+  <article>
+    <h1>ΣΧΟΛΙΚΗ ΚΑΡΤΑ ΑΠΟ ΔΕΥΤΕΡΑ 1/11</h1>
+    <p>26-10-21 Η λειτουργία του «edupass.gov.gr» επεκτείνεται στις σχολικές μονάδες της δημόσιας πρωτοβάθμιας, δευτεροβάθμιας εκπαίδευσης και ειδικής αγωγής</p>
+
+    <a href="3rdSubject.html">
+      <button class="button readMorebutton">Περισσότερα..</button>
+   </a>
+
+  </article>
+  
+</section>
+
+<footer>
+  <p>Copyright© 2022 .</p>
+</footer>
+
+</body>
+</html>
